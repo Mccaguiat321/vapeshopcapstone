@@ -1,0 +1,104 @@
+
+    body {
+        background: 
+        linear-gradient(rgba(0, 0, 0, 0.581), rgba(47, 44, 44, 0.262)), /* Gradient overlay */
+        url(../images/IMG_20240828_134650.jpg); /* Background image */    /* Adjust the blur amount (8px is just an example) */
+         
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+      
+    }
+    /* .card {
+        border: 0;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.25rem 0.5rem #0c0c53c4;
+        width: 500px;
+        margin-left: 30px;
+        transform: translateY(100px);
+    }
+
+    .card-header {
+        background-color: white !important;
+        border-bottom: 0;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: black;
+        padding: 1rem 0;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+    }
+    */ 
+
+     .form-control {
+        border-radius: 0.5rem;
+        padding: 1rem 0.75rem;
+        font-size: 0.9rem;
+        border: 1px solid black;
+    } 
+
+    .btn {
+        background-color:#003366;
+        border: 1px solid black;
+        border-radius: 10px !important;
+        color: white;
+        width: 100%;
+        padding: 10px 0;
+        font-size: 0.9rem;
+        font-weight: bold;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .btn-primary:hover {
+        background-color: #0c0c53c4;
+        color: white;
+    }
+
+  
+   
+    .red{
+        color: red;
+        font-weight: 700;
+    }
+.eror{
+    position: absolute !important;
+}
+.as{
+    background-color: rgba(35, 63, 62, 0.858);
+}
+.linerrrr{
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #e68a00;
+    border-radius: 10px;
+    top: 19%;
+    left: 39%;
+    animation: kulay 3s infinite;
+}
+.logo{
+    
+    width:70px;
+    height: 60px;
+    align-items: center;
+    justify-items: center;
+}
+@keyframes  kulay {
+    0%{
+        background-color: #e68a00;
+    }
+    60%{
+        background-color: #e99413;
+    }
+    100%{
+        background-color: #f5ac3e;
+    }
+}
+
+  
